@@ -52,3 +52,8 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+AstraApp/Log/
+AstraApp/x64/
+x64/
+packages/
+.vs/
