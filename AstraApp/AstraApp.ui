@@ -51,8 +51,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20px &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Patient Number:</string>
@@ -96,11 +103,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>-1</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20px &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="title">
      <string>Please select mode:</string>
@@ -109,18 +120,22 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>30</y>
+       <y>40</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Back_120_ArmAside</string>
@@ -132,19 +147,23 @@
     <widget class="QRadioButton" name="radioButton_2">
      <property name="geometry">
       <rect>
-       <x>250</x>
-       <y>30</y>
+       <x>190</x>
+       <y>40</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Back_120_ArmAside_6points</string>
@@ -153,19 +172,23 @@
     <widget class="QRadioButton" name="radioButton_3">
      <property name="geometry">
       <rect>
-       <x>560</x>
-       <y>30</y>
+       <x>410</x>
+       <y>40</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Sagittal_L_120cm</string>
@@ -174,19 +197,23 @@
     <widget class="QRadioButton" name="radioButton_4">
      <property name="geometry">
       <rect>
-       <x>820</x>
-       <y>30</y>
+       <x>610</x>
+       <y>40</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Sagittal_R_120cm</string>
@@ -196,18 +223,22 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>80</y>
+       <y>90</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Back_120_ArmsUp</string>
@@ -216,19 +247,23 @@
     <widget class="QRadioButton" name="radioButton_6">
      <property name="geometry">
       <rect>
-       <x>250</x>
-       <y>80</y>
+       <x>190</x>
+       <y>90</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Right_120_3side_points</string>
@@ -237,19 +272,23 @@
     <widget class="QRadioButton" name="radioButton_7">
      <property name="geometry">
       <rect>
-       <x>560</x>
-       <y>80</y>
+       <x>410</x>
+       <y>90</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
       <string>Back_120_6side_points</string>
@@ -258,22 +297,251 @@
     <widget class="QRadioButton" name="radioButton_8">
      <property name="geometry">
       <rect>
-       <x>820</x>
-       <y>80</y>
+       <x>610</x>
+       <y>90</y>
        <width>290</width>
        <height>40</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
      <property name="text">
       <string>Left_120_3side_points</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_9">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>20</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>a_feet1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_10">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>60</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>a_feet2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_11">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>100</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>a_feet3</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_12">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>60</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>b_feet2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_13">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>100</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>b_feet3</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_14">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>20</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>b_feet1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_15">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>60</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>walk_2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_16">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>100</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>walk_3</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_17">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>20</y>
+       <width>81</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15px &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>walk_1</string>
      </property>
     </widget>
    </widget>
@@ -288,8 +556,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20px &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Save Location: </string>
@@ -312,8 +587,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20px &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Capture &amp;&amp; Save</string>
@@ -330,8 +612,15 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20px &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Show in Explorer</string>
