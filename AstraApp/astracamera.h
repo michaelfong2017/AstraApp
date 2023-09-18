@@ -61,5 +61,5 @@ private:
 
 signals:
 	// A signal sent by our class to notify that there are frames that need to be processed
-	void framesReady(QImage frameRGB, QImage frameDepth);
+	void framesReady(QImage frameRGB, QImage frameDepth, QImage frameDepth16bit);
 };

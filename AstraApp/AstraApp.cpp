@@ -50,7 +50,11 @@ AstraApp::AstraApp(QWidget *parent)
         QString colorSavePath = filepath + "/" + patientNumber + "_" + mode + "_RGB_" + FileUtil::getCurrentDateTimeString() + ".png";
         QString depthSavePath = filepath + "/" + patientNumber + "_" + mode + "_D_" + FileUtil::getCurrentDateTimeString() + ".png";
         qColor.save(colorSavePath);
-        qDepth.save(depthSavePath);
+
+        // Save depth16bit
+        //qDepth.save(depthSavePath);
+        QImage grayscaleImage = qDepth16bit.convertToFormat(QImage::Format_Grayscale16);
+        grayscaleImage.save(depthSavePath);
 
         // Point Cloud
         std::string rgbPointsSavePath = QString(filepath + "/" + patientNumber + "_" + mode + "_RGB_PLY_" + FileUtil::getCurrentDateTimeString() + ".ply").toStdString();
@@ -82,7 +86,7 @@ AstraApp::AstraApp(QWidget *parent)
 AstraApp::~AstraApp()
 {}
 
-void AstraApp::receiveFrame(QImage rgb, QImage depth)
+void AstraApp::receiveFrame(QImage rgb, QImage depth, QImage depth16bit)
 {
     qDebug() << "receiveFrame()";
     if (rgb.width() != 0) {
@@ -92,6 +96,7 @@ void AstraApp::receiveFrame(QImage rgb, QImage depth)
     if (depth.width() != 0) {
         ui.label_2->setPixmap(QPixmap::fromImage(depth));
         this->qDepth = depth;
+        this->qDepth16bit = depth16bit;
     }
 }
 

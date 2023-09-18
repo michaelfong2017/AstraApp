@@ -25,8 +25,9 @@ void AstraCamera::run()
 
 		QImage qColor = convertColorCVToQImage(colorImage);
 		QImage qDepth = convertDepthCVToColorizedQImage(depthImage);
+		QImage qDepth16bit = convertDepthCVToQImage(depthImage);
 
-		emit framesReady(qColor, qDepth);
+		emit framesReady(qColor, qDepth, qDepth16bit);
 
 		// Point Cloud
 		pointCloud.setCreatePointFormat(OB_FORMAT_RGB_POINT);

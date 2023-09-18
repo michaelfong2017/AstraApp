@@ -17,7 +17,7 @@ public:
 
 public slots:
     // Slot that will receive frames from the camera
-    void receiveFrame(QImage rgb, QImage depth);
+    void receiveFrame(QImage rgb, QImage depth, QImage depth16bit);
     void receivePoints(FrameWrapper* rgbPointsFrameWrapper, FrameWrapper* pointsFrameWrapper);
 
 private:
@@ -29,6 +29,7 @@ private:
 
     QImage qColor;
     QImage qDepth;
+    QImage qDepth16bit;
 
     std::shared_ptr<ob::Frame> rgbPointsFrame;
     std::shared_ptr<ob::Frame> pointsFrame;
