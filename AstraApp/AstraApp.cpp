@@ -54,7 +54,7 @@ AstraApp::AstraApp(QWidget *parent)
         // Save depth16bit
         //qDepth.save(depthSavePath);
         QImage grayscaleImage = qDepth16bit.convertToFormat(QImage::Format_Grayscale16);
-        grayscaleImage.save(depthSavePath);
+        grayscaleImage.save(depthSavePath, "PNG");
 
         // Point Cloud
         std::string rgbPointsSavePath = QString(filepath + "/" + patientNumber + "_" + mode + "_RGB_PLY_" + FileUtil::getCurrentDateTimeString() + ".ply").toStdString();
